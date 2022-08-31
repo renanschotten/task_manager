@@ -31,7 +31,7 @@ jobs:
           git config --global user.email renan.schotten@gmail.com
           git config --global user.name renanschotten
           git status
-          git remote add origin https://${{secrets.Flutter Task Manager}}@github.com/renanschotten/renanschotten.github.io.git
+          git remote add origin https://${{secrets.token}}@github.com/renanschotten/renanschotten.github.io.git
           git checkout -b gh-pages
           git add --all
           git commit -m "update"
